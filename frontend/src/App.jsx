@@ -120,7 +120,7 @@ function addLog(nachricht) {
       const loeschProdukt = products.find(p => p.id === id);
       const nameFuerLog = loeschProdukt ? loeschProdukt.name : `ID: ${id}`;
       await deleteProduct(id);
-      addLog(`PRODUKT GELÖSCHT: "${nameFuerLog}" wurde aus der Datenbank entfernt.`);
+      addLog(`PRODUKT GELÖSCHT: "${nameFuerLog}" wurde entfernt.`);
       if (singleProduct && singleProduct.id === id) setSingleProduct(null);
       await loadProducts();
     } catch (err) {
@@ -221,7 +221,7 @@ function addLog(nachricht) {
       </div>
             <div className="management-box audit-log-container">
         <h2 className="audit-log-title">
-          📋 Live-Systemprotokoll (Audit Log)
+            Live-Systemprotokoll (Audit Log)
         </h2>
         
         {logs.length === 0 ? (

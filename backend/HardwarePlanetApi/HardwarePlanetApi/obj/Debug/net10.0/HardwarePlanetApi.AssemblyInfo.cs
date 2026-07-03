@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HardwarePlanetApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+755b134ac6e72e773e11989f9dc527e728bfbe7c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+473ee23a29884d180e8445ed1d7ecef638876897")]
 [assembly: System.Reflection.AssemblyProductAttribute("HardwarePlanetApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HardwarePlanetApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
