@@ -1,5 +1,6 @@
 const URL = 'http://localhost:5102/api/products';
 
+// Alle Produkte aus der API laden
 export async function getProducts() {
     const response = await fetch(URL);
 
@@ -10,6 +11,7 @@ export async function getProducts() {
     return response.json();
 }
 
+// Ein einzelnes Produkt nach ID abrufen
 export async function getProductById(id) {
     const response = await fetch(`${URL}/${id}`);
 
@@ -20,6 +22,7 @@ export async function getProductById(id) {
     return response.json();
 }
 
+// Neues Produkt anlegen
 export async function createProduct(product) {
     const response = await fetch(URL, {
         method: 'POST',
@@ -40,8 +43,9 @@ export async function createProduct(product) {
     } catch {
         return text;
     }
-    
 }
+
+// Bestehendes Produkt aktualisieren
 export async function updateProduct(id, product) {
     const response = await fetch(`${URL}/${id}`, {
         method: 'PUT',
@@ -63,6 +67,8 @@ export async function updateProduct(id, product) {
         return text;
     }
 }
+
+// Produkt löschen
 export async function deleteProduct(id) {
     const response = await fetch(`${URL}/${id}`, {
         method: 'DELETE'

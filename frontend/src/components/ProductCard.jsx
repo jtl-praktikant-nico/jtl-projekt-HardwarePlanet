@@ -1,5 +1,7 @@
 import React from 'react';
 
+// ProductCard zeigt ein einzelnes Produkt in der Übersicht an.
+// Der Container erhält Informationen aus App und verwendet sie für Darstellung und Aktionen.
 function ProductCard({ 
   product, 
   editingId, 
@@ -13,7 +15,8 @@ function ProductCard({
 }) {
   const p = product;
 
-  // Wenn diese Karte gerade bearbeitet wird, zeigen wir das Formular an
+  // Bearbeitungsmodus: Wenn editingId mit dem Produkt übereinstimmt, zeigt die Karte ein Formular an.
+  // So wird nur die Karte bearbeitbar, die gerade ausgewählt wurde.
   if (editingId === p.id) {
     return (
       <div className="product-card">
@@ -32,7 +35,9 @@ function ProductCard({
     );
   }
 
-  // Normaler Anzeige-Modus der Hardware-Karte
+  // Anzeige-Modus: Produktdetails mit Bild, Kategorie und Aktionen.
+  // startEditing setzt die ID in App, damit diese Karte in den Bearbeitungsmodus wechselt.
+  // handleDelete ruft die Löschfunktion in App auf, damit das Produkt auch im Backend entfernt wird.
   return (
     <div className="product-card">
       <div className="image-wrapper">
@@ -58,5 +63,4 @@ function ProductCard({
   );
 }
 
-// Hier am Ende verpassen wir der Datei den fehlenden Default-Export!
 export default ProductCard;
