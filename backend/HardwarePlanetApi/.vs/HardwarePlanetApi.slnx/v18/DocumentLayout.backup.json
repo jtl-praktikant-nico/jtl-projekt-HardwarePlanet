@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\JTLPr\\Desktop\\jtl-projekt\\backend\\HardwarePlanetApi\\",
+  "WorkspaceRootPath": "C:\\Users\\JTLPr\\Documents\\GitHub\\jtl-projekt-HardwarePlanet\\backend\\HardwarePlanetApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6999C4CF-002B-3893-BFBD-1DC15D9E1325}|HardwarePlanetApi\\HardwarePlanetApi.csproj|c:\\users\\jtlpr\\desktop\\jtl-projekt\\backend\\hardwareplanetapi\\hardwareplanetapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6999C4CF-002B-3893-BFBD-1DC15D9E1325}|HardwarePlanetApi\\HardwarePlanetApi.csproj|c:\\users\\jtlpr\\documents\\github\\jtl-projekt-hardwareplanet\\backend\\hardwareplanetapi\\hardwareplanetapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6999C4CF-002B-3893-BFBD-1DC15D9E1325}|HardwarePlanetApi\\HardwarePlanetApi.csproj|solutionrelative:hardwareplanetapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6999C4CF-002B-3893-BFBD-1DC15D9E1325}|HardwarePlanetApi\\HardwarePlanetApi.csproj|c:\\users\\jtlpr\\desktop\\jtl-projekt\\backend\\hardwareplanetapi\\hardwareplanetapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6999C4CF-002B-3893-BFBD-1DC15D9E1325}|HardwarePlanetApi\\HardwarePlanetApi.csproj|c:\\users\\jtlpr\\documents\\github\\jtl-projekt-hardwareplanet\\backend\\hardwareplanetapi\\hardwareplanetapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6999C4CF-002B-3893-BFBD-1DC15D9E1325}|HardwarePlanetApi\\HardwarePlanetApi.csproj|solutionrelative:hardwareplanetapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6999C4CF-002B-3893-BFBD-1DC15D9E1325}|HardwarePlanetApi\\HardwarePlanetApi.csproj|c:\\users\\jtlpr\\desktop\\jtl-projekt\\backend\\hardwareplanetapi\\hardwareplanetapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{6999C4CF-002B-3893-BFBD-1DC15D9E1325}|HardwarePlanetApi\\HardwarePlanetApi.csproj|c:\\users\\jtlpr\\documents\\github\\jtl-projekt-hardwareplanet\\backend\\hardwareplanetapi\\hardwareplanetapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6999C4CF-002B-3893-BFBD-1DC15D9E1325}|HardwarePlanetApi\\HardwarePlanetApi.csproj|solutionrelative:hardwareplanetapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6999C4CF-002B-3893-BFBD-1DC15D9E1325}|HardwarePlanetApi\\HardwarePlanetApi.csproj|c:\\users\\jtlpr\\desktop\\jtl-projekt\\backend\\hardwareplanetapi\\hardwareplanetapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6999C4CF-002B-3893-BFBD-1DC15D9E1325}|HardwarePlanetApi\\HardwarePlanetApi.csproj|c:\\users\\jtlpr\\documents\\github\\jtl-projekt-hardwareplanet\\backend\\hardwareplanetapi\\hardwareplanetapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6999C4CF-002B-3893-BFBD-1DC15D9E1325}|HardwarePlanetApi\\HardwarePlanetApi.csproj|solutionrelative:hardwareplanetapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,9 +35,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\JTLPr\\Desktop\\jtl-projekt\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\JTLPr\\Documents\\GitHub\\jtl-projekt-HardwarePlanet\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\Program.cs",
               "RelativeDocumentMoniker": "HardwarePlanetApi\\Program.cs",
-              "ToolTip": "C:\\Users\\JTLPr\\Desktop\\jtl-projekt\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\Program.cs",
+              "ToolTip": "C:\\Users\\JTLPr\\Documents\\GitHub\\jtl-projekt-HardwarePlanet\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\Program.cs",
               "RelativeToolTip": "HardwarePlanetApi\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -47,9 +47,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\JTLPr\\Desktop\\jtl-projekt\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\JTLPr\\Documents\\GitHub\\jtl-projekt-HardwarePlanet\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "HardwarePlanetApi\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\JTLPr\\Desktop\\jtl-projekt\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\JTLPr\\Documents\\GitHub\\jtl-projekt-HardwarePlanet\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\Properties\\launchSettings.json",
               "RelativeToolTip": "HardwarePlanetApi\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -59,11 +59,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\JTLPr\\Desktop\\jtl-projekt\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\JTLPr\\Documents\\GitHub\\jtl-projekt-HardwarePlanet\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "HardwarePlanetApi\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\JTLPr\\Desktop\\jtl-projekt\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\JTLPr\\Documents\\GitHub\\jtl-projekt-HardwarePlanet\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\Controllers\\ProductController.cs",
               "RelativeToolTip": "HardwarePlanetApi\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-30T10:42:04.93Z",
               "EditorCaption": ""
@@ -73,9 +73,9 @@
               "DocumentIndex": 4,
               "Title": "Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets",
               "ViewState": "AgIAAKYBAAAAAAAAAEBVwKsBAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2026-06-30T10:42:28.37Z"
@@ -84,9 +84,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\JTLPr\\Desktop\\jtl-projekt\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\Models\\Product.cs",
+              "DocumentMoniker": "C:\\Users\\JTLPr\\Documents\\GitHub\\jtl-projekt-HardwarePlanet\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\Models\\Product.cs",
               "RelativeDocumentMoniker": "HardwarePlanetApi\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\JTLPr\\Desktop\\jtl-projekt\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\JTLPr\\Documents\\GitHub\\jtl-projekt-HardwarePlanet\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\Models\\Product.cs",
               "RelativeToolTip": "HardwarePlanetApi\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

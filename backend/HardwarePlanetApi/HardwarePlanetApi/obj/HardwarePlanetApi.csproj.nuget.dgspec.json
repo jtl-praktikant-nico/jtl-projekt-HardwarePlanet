@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JTLPr\\Desktop\\jtl-projekt\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\HardwarePlanetApi.csproj": {}
+    "C:\\Users\\JTLPr\\Documents\\GitHub\\jtl-projekt-HardwarePlanet\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\HardwarePlanetApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JTLPr\\Desktop\\jtl-projekt\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\HardwarePlanetApi.csproj": {
+    "C:\\Users\\JTLPr\\Documents\\GitHub\\jtl-projekt-HardwarePlanet\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\HardwarePlanetApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JTLPr\\Desktop\\jtl-projekt\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\HardwarePlanetApi.csproj",
+        "projectUniqueName": "C:\\Users\\JTLPr\\Documents\\GitHub\\jtl-projekt-HardwarePlanet\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\HardwarePlanetApi.csproj",
         "projectName": "HardwarePlanetApi",
-        "projectPath": "C:\\Users\\JTLPr\\Desktop\\jtl-projekt\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\HardwarePlanetApi.csproj",
+        "projectPath": "C:\\Users\\JTLPr\\Documents\\GitHub\\jtl-projekt-HardwarePlanet\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\HardwarePlanetApi.csproj",
         "packagesPath": "C:\\Users\\JTLPr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JTLPr\\Desktop\\jtl-projekt\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\obj\\",
+        "outputPath": "C:\\Users\\JTLPr\\Documents\\GitHub\\jtl-projekt-HardwarePlanet\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
