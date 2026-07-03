@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tfksBD62oNY=",
+  "dgSpecHash": "BarhBOM5SRM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\JTLPr\\Desktop\\jtl-projekt\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\HardwarePlanetApi.csproj",
+  "projectFilePath": "C:\\Users\\JTLPr\\Documents\\GitHub\\jtl-projekt-HardwarePlanet\\backend\\HardwarePlanetApi\\HardwarePlanetApi\\HardwarePlanetApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JTLPr\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.9\\microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
     "C:\\Users\\JTLPr\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",

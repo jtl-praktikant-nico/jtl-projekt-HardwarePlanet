@@ -15,6 +15,8 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
+  const [logs, setLogs] = useState([]); // logs speichert die letzten Aktionen (z.B. Erstellen, Aktualisieren, Löschen)
+
   // searchId wird durch das Suchfeld verändert. singleProduct speichert das Ergebnis der Suche.
   const [searchId, setSearchId] = useState('');
   const [singleProduct, setSingleProduct] = useState(null);
@@ -30,7 +32,7 @@ function App() {
   });
 
   // Bearbeitungsmodus: editingId ist die ID des Produkts, das gerade editiert wird.
-  // editFormData enthält die aktuellen Werte des Bearbeitungsformulars.
+  // editFormData enthält die aktuellen Werte der Bearbeitung.
   const [editingId, setEditingId] = useState(null);
   const [editFormData, setEditFormData] = useState({
     name: '',
@@ -38,17 +40,23 @@ function App() {
     description: '',
     price: '',
     imageUrl: ''
-  });
+  });           
 
   // useEffect mit leerer Abhängigkeit sorgt dafür, dass loadProducts nur einmal ausgeführt wird,
-  // direkt nach dem ersten Rendern der Komponente. So holen wir beim Start die Produktliste.
+  // direkt nach dem ersten Rendern . So holen wir beim Start die Produktliste.
   useEffect(() => {
     loadProducts();
   }, []);
 
+  // Hilfsfunktion: Schnappt sich die Uhrzeit und packt die Nachricht ganz oben ins Array
+function addLog(nachricht) {
+  const uhrzeit = new Date().toLocaleTimeString('de-DE', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+  setLogs((prevLogs) => [`[${uhrzeit}] ${nachricht}`, ...prevLogs]);
+}
+
   // loadProducts ruft die API-Funktion getProducts auf und speichert das Ergebnis in products.
-  // Im Fehlerfall schreiben wir die Fehlermeldung in error. loading wird vor und nach dem Laden gesetzt,
-  // damit die UI anzeigen kann, dass gerade Daten angefragt werden.
+  // Im Fehlerfall kommt  die Fehlermeldung . loading wird vor und nach dem Laden gesetzt,
+  // damit die UI anzeigen kann, dass gerade Daten angefragt werden damit der user sich nicht fragt warum da ein dunkler bildshirm ist.
   async function loadProducts() {
     try {
       setLoading(true);
@@ -75,8 +83,8 @@ function App() {
     }
   }
 
-  // handleFormChange wird bei jeder Änderung eines Eingabefelds im Erstellungsformular aufgerufen.
-  // Das Feldname-Attribut (z. B. name, category) bestimmt, welcher Schlüssel im formData-Objekt aktualisiert wird.
+  // handleFormChange wird bei jeder Änderung eines Eingabefelds in der  Erstellung aufgerufen.
+  // Das Feldname-Attribut (z. B. name, category) bestimmt, welches atribut im formData-Objekt aktualisiert wird.
   function handleFormChange(e) {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
@@ -89,12 +97,13 @@ function App() {
     setEditFormData((prev) => ({ ...prev, [name]: value }));
   }
 
-  // handleCreate sendet die aktuellen Eingaben des Erstellungsformulars an die API.
+  // handleCreate sendet die aktuellen Eingaben der Erstellung an die API.
   // Danach wird das Formular geleert und die Produktliste erneut geladen, damit die neue Hardware sichtbar wird.
   async function handleCreate(e) {
     e.preventDefault();
     try {
       await createProduct(formData);
+      addLog(`PRODUKT ERSTELLT: "${formData.name}" wurde im System registriert.`);
       setFormData({ name: '', category: '', description: '', price: '', imageUrl: '' });
       await loadProducts();
     } catch (err) {
@@ -107,14 +116,17 @@ function App() {
   async function handleDelete(id) {
     if (!window.confirm('Produkt wirklich löschen?')) return;
     try {
+   
+      const loeschProdukt = products.find(p => p.id === id);
+      const nameFuerLog = loeschProdukt ? loeschProdukt.name : `ID: ${id}`;
       await deleteProduct(id);
+      addLog(`PRODUKT GELÖSCHT: "${nameFuerLog}" wurde aus der Datenbank entfernt.`);
       if (singleProduct && singleProduct.id === id) setSingleProduct(null);
       await loadProducts();
     } catch (err) {
       setError(err.message);
     }
   }
-
   // startEditing füllt das Bearbeitungsformular mit den Daten des ausgewählten Produkts.
   // editingId wird gesetzt, damit die Produktkarte weiß, dass sie jetzt im Bearbeitungsmodus ist.
   function startEditing(product) {
@@ -135,6 +147,7 @@ function App() {
     e.preventDefault();
     try {
       await updateProduct(editingId, editFormData);
+      addLog(`PRODUKT AKTUALISIERT: Änderungen an "${editFormData.name}" wurden gespeichert.`);
       setEditingId(null);
       await loadProducts();
     } catch (err) {
@@ -194,8 +207,8 @@ function App() {
           )}
         </section>
 
-        <section className="management-box">
-          <h2>Neues Produkt hinzufügen</h2>
+        <section className="management-box">   
+          <h2>Neues Produkt hinzufügen</h2>       
           <form onSubmit={handleCreate} className="create-form">
             <input name="name" value={formData.name} onChange={handleFormChange} placeholder="Name (z.B. RTX 5080)" />
             <input name="category" value={formData.category} onChange={handleFormChange} placeholder="Kategorie (z.B. Grafikkarten)" />
@@ -206,6 +219,24 @@ function App() {
           </form>
         </section>
       </div>
+            <div className="management-box audit-log-container">
+        <h2 className="audit-log-title">
+          📋 Live-Systemprotokoll (Audit Log)
+        </h2>
+        
+        {logs.length === 0 ? (
+          <p className="audit-log-empty">Noch keine Aktionen im System durchgeführt.</p>
+        ) : (
+          <div className="audit-log-ticker">
+            {logs.map((log, index) => (
+              <div key={index} className="audit-log-entry">
+                {log}
+              </div>
+            ))}
+          </div>
+        )}
+</div>
+
     </div>
   );
 }
